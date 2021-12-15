@@ -1,11 +1,11 @@
 /* Pc */
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
     #nav .subnav {
 
     }
 }
 /* Tablet and moblie */
-@media(max-width:63.9375em) {
+@media(max-width:1023px) {
     .btn {
         padding: 15px 16px;
     }
@@ -30,11 +30,11 @@
 
     .socials-list a {
         margin: 0 8px;
-        font-size: 34px;
+        font-size: 48px;
     }
 
     .coppyright {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .coppyright a {
@@ -44,14 +44,11 @@
 }
 
 /* Tablet */
-@media (min-width:46.25em) and (max-width:63.9375em) {
-    #header img {
-        display: none;
-    }
+@media (min-width: 740px) and (max-width:1023px) {
 
 }
 /* Moblie */
-@media (max-width:46.1875em) {
+@media (max-width:740px) {
     .s-full-width {
         width: 100% !important;
     }
@@ -77,10 +74,6 @@
     }   
     
     #header .search-btn {
-        display: none;
-    }
-
-    #header img {
         display: none;
     }
     
@@ -111,23 +104,9 @@
         padding: 5px 41px;
     }
 
-   .text-heading,
-    .text-descr{
-        display: none;
-    }
-
-    #Content .member-list {
-        height: auto;
-    }
-
     #Content .member-img {
         width: 60%;
     }
-
-    #Content .member-img:hover {
-        width: 75%;
-        cursor: pointer;
-      }
 
     .contact-form {
         margin-top: 32px;
