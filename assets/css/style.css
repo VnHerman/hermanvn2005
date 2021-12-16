@@ -203,6 +203,7 @@ html {
 }
 
 #Slider {
+  margin-top: 36px;
   position: relative;
   padding-top: 50%;
   background: url(../img/place/kda.jpg) top center / cover no-repeat  ;
